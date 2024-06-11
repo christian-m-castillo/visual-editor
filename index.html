@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vitüls v1.0</title>
+  <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+  <div class="container">
+    <div id="image-container">
+      <span>No image uploaded</span>
+    </div>
+    <input type="file" id="image-input" accept="image/*">
+    <div class="controls">
+      <div class="control-group">
+        <button id="rotate-left">Rotate Left</button>
+        <button id="rotate-right">Rotate Right</button>
+      </div>
+      <div class="control-group">
+        <input type="number" id="width-input" placeholder="Width (px)">
+        <input type="number" id="height-input" placeholder="Height (px)">
+        <button id="resize-button">Resize</button>
+      </div>
+    </div>
+  </div>
+  <script src="./js/app.js"></script>
+</body>
+</html>
